@@ -1,0 +1,6 @@
+@OpinionsAnalytics.Api_HostAddress = http://localhost:5130
+
+GET {{OpinionsAnalytics.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
