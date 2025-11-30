@@ -12,7 +12,7 @@
 
         public DateOnly Fecha { get; set; }
 
-        public string Comentario { get; set; }
+        public string ?Comentario { get; set; }
 
         public int Rating { get; set; }
     }
