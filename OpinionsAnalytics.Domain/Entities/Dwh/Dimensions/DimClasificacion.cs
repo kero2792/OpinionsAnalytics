@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OpinionsAnalytics.Domain.Entities.Dwh.Dimensions
 {
+    [Table("DimClasificacion", Schema = "dbo")]
     public class DimClasificacion
     {
         public int ClasificacionKey { get; set; }
-
-        public string Clasificacion { get; set; }
-
-        public string Descripcion { get; set; }
-
+        public string? Clasificacion { get; set; }
+        public string? Descripcion { get; set; }
         public byte? ValorNumerico { get; set; }
     }
 }

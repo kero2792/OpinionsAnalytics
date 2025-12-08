@@ -21,4 +21,8 @@
     <ProjectReference Include="..\OpinionsAnalytics.Domain\OpinionsAnalytics.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\Db\Context\" />
+  </ItemGroup>
+
 </Project>
